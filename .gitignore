@@ -4,6 +4,5 @@ node_modules/
 # Code Editor
 .vscode/
 
-#
 .DS_Store
-package-lock.josn
+package-lock.json
