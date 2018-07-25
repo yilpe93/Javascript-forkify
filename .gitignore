@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Code Editor
+.vscode/
+
+#
+.DS_Stroe
+package-lock.josn
