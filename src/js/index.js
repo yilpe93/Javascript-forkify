@@ -15,7 +15,6 @@ import { elements, renderLoader, clearLoader, elementStrings } from './views/bas
  * - Liked recipes
 */
 const state = {};
-window.state = state;
 
 /** 
  * SEARCH CONTROLLER
@@ -53,9 +52,8 @@ elements.searchForm.addEventListener('submit', e => {
 });
 
 elements.searchResPages.addEventListener('click', e => {
-  // console.log(e.target);
   const btn = e.target.closest('.btn-inline');
-  // console.log(btn);
+
   if (btn) {
     const goToPage = parseInt(btn.dataset.goto, 10);
     searchView.clearResults();
@@ -212,5 +210,3 @@ elements.recipe.addEventListener('click', e => {
 
   // console.log(state.recipe);
 });
-
-window.l = new List();
