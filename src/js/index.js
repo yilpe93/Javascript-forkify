@@ -95,7 +95,6 @@ const controlRecipe = async () => {
         state.likes.isLiked(id)
       );
     } catch (err) {
-      console.log(err);
       alert('Error processing recipe!');
     }
   }
